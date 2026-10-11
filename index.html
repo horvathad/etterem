@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="HU">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Étterem</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Étterem</a>
+        <nav>
+            <a href="#rolunk">Rólunk</a>
+            <a href="#etlap">Étlap</a>
+            <a href="#galeria">Galéria</a>
+            <a href="#kapcsolat">Kapcsolat</a>
+            <a href="#foglalas" class="nav-button">Asztalfoglalás</a>
+        </nav>
+        <button class="menu-toggle">☰</button>
+    </header>
+    <main>
+
+        <section class="hero">
+            <div class="hero-content">
+                <p class="eyebrow">Ízek. Hangulat. Élmény.</p>
+
+                <h1>
+                    Üdvözlünk az<br>
+                    <span>Étterem</span>-nél
+                </h1>
+
+                <p>
+                    Friss alapanyagok, szeretettel készített fogások
+                    és felejthetetlen esték.
+                </p>
+
+                <a href="#foglalas" class="button">
+                    Asztalt foglalok
+                </a>
+            </div>
+        </section>
+
+
+        <section id="rolunk" class="section about">
+
+            <div>
+                <p class="eyebrow">Rólunk</p>
+                <h2>Egy hely, ahová jó visszatérni.</h2>
+            </div>
+
+            <p>
+                Az Étterem egy modern, barátságos étterem, ahol
+                a klasszikus ízeket kortárs ötletekkel párosítjuk.
+                Konyhánk szezonális alapanyagokra és gondos
+                elkészítésre épül.
+            </p>
+
+        </section>
+
+
+        <section id="etlap" class="section menu-section">
+
+            <p class="eyebrow">Étlap</p>
+            <h2>Legnépszerűbb fogásaink</h2>
+
+            <div class="menu-grid">
+
+                <article class="dish">
+                    <div>
+                        <h3>Parmezános rizottó</h3>
+                        <p>
+                            Krémes rizottó, parmezán, friss zöldfűszerek
+                        </p>
+                    </div>
+                    <strong>3 990 Ft</strong>
+                </article>
+
+                <article class="dish">
+                    <div>
+                        <h3>Marhahátszín</h3>
+                        <p>
+                            Grillezett marhahús, burgonyapüré,
+                            vörösboros jus
+                        </p>
+                    </div>
+                    <strong>6 490 Ft</strong>
+                </article>
+
+                <article class="dish">
+                    <div>
+                        <h3>Házi tagliatelle</h3>
+                        <p>
+                            Friss tészta, paradicsom, bazsalikom,
+                            pecorino
+                        </p>
+                    </div>
+                    <strong>3 690 Ft</strong>
+                </article>
+
+                <article class="dish">
+                    <div>
+                        <h3>Csokoládé fondant</h3>
+                        <p>
+                            Meleg étcsokoládé, vaníliafagylalt,
+                            bogyós gyümölcs
+                        </p>
+                    </div>
+                    <strong>2 490 Ft</strong>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <section id="galeria" class="gallery">
+            <div class="gallery-card g1"></div>
+            <div class="gallery-card g2"></div>
+            <div class="gallery-card g3"></div>
+        </section>
+
+
+        <section id="foglalas" class="section booking">
+
+            <div>
+                <p class="eyebrow">Asztalfoglalás</p>
+
+                <h2>Foglalj asztalt nálunk!</h2>
+
+                <p>
+                    Válaszd ki az időpontot, mi pedig gondoskodunk
+                    a többi részletről.
+                </p>
+            </div>
+
+            <form id="bookingForm">
+
+                <input type="text" placeholder="Név" required>
+
+                <input type="email" placeholder="E-mail" required>
+
+                <input type="date" required>
+
+                <input type="time" required>
+
+                <input type="number" min="1" max="20" placeholder="Vendégek száma" required>
+
+                <button class="button" type="submit">
+                    Foglalás elküldése
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <footer id="kapcsolat">
+
+        <div>
+            <a href="#" class="logo">Étterem</a>
+            <p>Budapest · Xy utca 12.</p>
+        </div>
+
+        <div>
+            <p>+36 30 123 4567</p>
+            <p>abcd@1234.hu</p>
+        </div>
+
+        <p>© 2026 Étterem</p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+<!-- git mentés:
+git status
+git add .
+git commit -m "valami"
+git push -->
